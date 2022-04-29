@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		360C0FD6281AE9AA00A2EF2D /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 360C0FD5281AE9AA00A2EF2D /* FirebaseAnalytics */; };
+		360C0FD8281AE9AA00A2EF2D /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 360C0FD7281AE9AA00A2EF2D /* FirebaseAuth */; };
+		360C0FDA281AEFD500A2EF2D /* PhoneAuthSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FD9281AEFD500A2EF2D /* PhoneAuthSignInView.swift */; };
+		360C0FDD281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FDC281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift */; };
+		360C0FE1281AF7AF00A2EF2D /* XRoundedDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE0281AF7AF00A2EF2D /* XRoundedDismissButton.swift */; };
+		360C0FE5281BD16600A2EF2D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE4281BD16600A2EF2D /* Alert.swift */; };
+		360C0FE9281BFA1F00A2EF2D /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE8281BFA1F00A2EF2D /* PhoneAuthViewModel.swift */; };
+		36553244281ADFCF00241DC6 /* PhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553243281ADFCF00241DC6 /* PhoneAuthApp.swift */; };
+		36553246281ADFCF00241DC6 /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553245281ADFCF00241DC6 /* PhoneAuthView.swift */; };
+		36553248281ADFD000241DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36553247281ADFD000241DC6 /* Assets.xcassets */; };
+		3655324B281ADFD000241DC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3655324A281ADFD000241DC6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		360C0FD9281AEFD500A2EF2D /* PhoneAuthSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthSignInView.swift; sourceTree = "<group>"; };
+		360C0FDC281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthSignInViewModel.swift; sourceTree = "<group>"; };
+		360C0FE0281AF7AF00A2EF2D /* XRoundedDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XRoundedDismissButton.swift; sourceTree = "<group>"; };
+		360C0FE4281BD16600A2EF2D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		360C0FE6281BF61A00A2EF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		360C0FE8281BFA1F00A2EF2D /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
+		36553240281ADFCF00241DC6 /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		36553243281ADFCF00241DC6 /* PhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthApp.swift; sourceTree = "<group>"; };
+		36553245281ADFCF00241DC6 /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
+		36553247281ADFD000241DC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3655324A281ADFD000241DC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3655323D281ADFCF00241DC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C0FD6281AE9AA00A2EF2D /* FirebaseAnalytics in Frameworks */,
+				360C0FD8281AE9AA00A2EF2D /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360C0FDB281AF0BF00A2EF2D /* Phone Sign In */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FD9281AEFD500A2EF2D /* PhoneAuthSignInView.swift */,
+				360C0FDC281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift */,
+			);
+			path = "Phone Sign In";
+			sourceTree = "<group>";
+		};
+		360C0FDE281AF79800A2EF2D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FDF281AF79D00A2EF2D /* Buttons */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		360C0FDF281AF79D00A2EF2D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FE0281AF7AF00A2EF2D /* XRoundedDismissButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		360C0FE2281BD14D00A2EF2D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FE3281BD15600A2EF2D /* Alert */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		360C0FE3281BD15600A2EF2D /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FE4281BD16600A2EF2D /* Alert.swift */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		360C0FE7281BF9F500A2EF2D /* Phone Auth */ = {
+			isa = PBXGroup;
+			children = (
+				36553245281ADFCF00241DC6 /* PhoneAuthView.swift */,
+				360C0FE8281BFA1F00A2EF2D /* PhoneAuthViewModel.swift */,
+			);
+			path = "Phone Auth";
+			sourceTree = "<group>";
+		};
+		36553237281ADFCF00241DC6 = {
+			isa = PBXGroup;
+			children = (
+				36553242281ADFCF00241DC6 /* PhoneAuth */,
+				36553241281ADFCF00241DC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36553241281ADFCF00241DC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36553240281ADFCF00241DC6 /* PhoneAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36553242281ADFCF00241DC6 /* PhoneAuth */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FE6281BF61A00A2EF2D /* Info.plist */,
+				36553243281ADFCF00241DC6 /* PhoneAuthApp.swift */,
+				360C0FDE281AF79800A2EF2D /* Views */,
+				360C0FE2281BD14D00A2EF2D /* Utilities */,
+				360C0FE7281BF9F500A2EF2D /* Phone Auth */,
+				360C0FDB281AF0BF00A2EF2D /* Phone Sign In */,
+				36553247281ADFD000241DC6 /* Assets.xcassets */,
+				36553249281ADFD000241DC6 /* Preview Content */,
+			);
+			path = PhoneAuth;
+			sourceTree = "<group>";
+		};
+		36553249281ADFD000241DC6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3655324A281ADFD000241DC6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3655323F281ADFCF00241DC6 /* PhoneAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3655324E281ADFD000241DC6 /* Build configuration list for PBXNativeTarget "PhoneAuth" */;
+			buildPhases = (
+				3655323C281ADFCF00241DC6 /* Sources */,
+				3655323D281ADFCF00241DC6 /* Frameworks */,
+				3655323E281ADFCF00241DC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PhoneAuth;
+			packageProductDependencies = (
+				360C0FD5281AE9AA00A2EF2D /* FirebaseAnalytics */,
+				360C0FD7281AE9AA00A2EF2D /* FirebaseAuth */,
+			);
+			productName = PhoneAuth;
+			productReference = 36553240281ADFCF00241DC6 /* PhoneAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36553238281ADFCF00241DC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3655323F281ADFCF00241DC6 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3655323B281ADFCF00241DC6 /* Build configuration list for PBXProject "PhoneAuth" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36553237281ADFCF00241DC6;
+			packageReferences = (
+				360C0FD4281AE9AA00A2EF2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 36553241281ADFCF00241DC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3655323F281ADFCF00241DC6 /* PhoneAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3655323E281ADFCF00241DC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3655324B281ADFD000241DC6 /* Preview Assets.xcassets in Resources */,
+				36553248281ADFD000241DC6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3655323C281ADFCF00241DC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				360C0FE5281BD16600A2EF2D /* Alert.swift in Sources */,
+				36553246281ADFCF00241DC6 /* PhoneAuthView.swift in Sources */,
+				360C0FDD281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift in Sources */,
+				360C0FDA281AEFD500A2EF2D /* PhoneAuthSignInView.swift in Sources */,
+				360C0FE9281BFA1F00A2EF2D /* PhoneAuthViewModel.swift in Sources */,
+				360C0FE1281AF7AF00A2EF2D /* XRoundedDismissButton.swift in Sources */,
+				36553244281ADFCF00241DC6 /* PhoneAuthApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3655324C281ADFD000241DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3655324D281ADFD000241DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3655324F281ADFD000241DC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = flock.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		36553250281ADFD000241DC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PhoneAuth/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = flock.PhoneAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3655323B281ADFCF00241DC6 /* Build configuration list for PBXProject "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3655324C281ADFD000241DC6 /* Debug */,
+				3655324D281ADFD000241DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3655324E281ADFD000241DC6 /* Build configuration list for PBXNativeTarget "PhoneAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3655324F281ADFD000241DC6 /* Debug */,
+				36553250281ADFD000241DC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		360C0FD4281AE9AA00A2EF2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		360C0FD5281AE9AA00A2EF2D /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 360C0FD4281AE9AA00A2EF2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		360C0FD7281AE9AA00A2EF2D /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 360C0FD4281AE9AA00A2EF2D /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 36553238281ADFCF00241DC6 /* Project object */;
+}
