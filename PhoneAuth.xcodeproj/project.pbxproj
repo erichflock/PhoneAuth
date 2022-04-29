@@ -14,6 +14,8 @@
 		360C0FE1281AF7AF00A2EF2D /* XRoundedDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE0281AF7AF00A2EF2D /* XRoundedDismissButton.swift */; };
 		360C0FE5281BD16600A2EF2D /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE4281BD16600A2EF2D /* Alert.swift */; };
 		360C0FE9281BFA1F00A2EF2D /* PhoneAuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FE8281BFA1F00A2EF2D /* PhoneAuthViewModel.swift */; };
+		360C0FEC281C2A6B00A2EF2D /* View+Placeholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360C0FEB281C2A6B00A2EF2D /* View+Placeholder.swift */; };
+		360C0FEE281C2A8A00A2EF2D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 360C0FED281C2A8A00A2EF2D /* GoogleService-Info.plist */; };
 		36553244281ADFCF00241DC6 /* PhoneAuthApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553243281ADFCF00241DC6 /* PhoneAuthApp.swift */; };
 		36553246281ADFCF00241DC6 /* PhoneAuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36553245281ADFCF00241DC6 /* PhoneAuthView.swift */; };
 		36553248281ADFD000241DC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36553247281ADFD000241DC6 /* Assets.xcassets */; };
@@ -27,6 +29,8 @@
 		360C0FE4281BD16600A2EF2D /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		360C0FE6281BF61A00A2EF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		360C0FE8281BFA1F00A2EF2D /* PhoneAuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthViewModel.swift; sourceTree = "<group>"; };
+		360C0FEB281C2A6B00A2EF2D /* View+Placeholder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Placeholder.swift"; sourceTree = "<group>"; };
+		360C0FED281C2A8A00A2EF2D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36553240281ADFCF00241DC6 /* PhoneAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhoneAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36553243281ADFCF00241DC6 /* PhoneAuthApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthApp.swift; sourceTree = "<group>"; };
 		36553245281ADFCF00241DC6 /* PhoneAuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneAuthView.swift; sourceTree = "<group>"; };
@@ -97,6 +101,14 @@
 			path = "Phone Auth";
 			sourceTree = "<group>";
 		};
+		360C0FEA281C2A3A00A2EF2D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				360C0FEB281C2A6B00A2EF2D /* View+Placeholder.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		36553237281ADFCF00241DC6 = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +134,10 @@
 				360C0FE2281BD14D00A2EF2D /* Utilities */,
 				360C0FE7281BF9F500A2EF2D /* Phone Auth */,
 				360C0FDB281AF0BF00A2EF2D /* Phone Sign In */,
+				360C0FEA281C2A3A00A2EF2D /* Extensions */,
 				36553247281ADFD000241DC6 /* Assets.xcassets */,
 				36553249281ADFD000241DC6 /* Preview Content */,
+				360C0FED281C2A8A00A2EF2D /* GoogleService-Info.plist */,
 			);
 			path = PhoneAuth;
 			sourceTree = "<group>";
@@ -203,6 +217,7 @@
 			files = (
 				3655324B281ADFD000241DC6 /* Preview Assets.xcassets in Resources */,
 				36553248281ADFD000241DC6 /* Assets.xcassets in Resources */,
+				360C0FEE281C2A8A00A2EF2D /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,6 +230,7 @@
 			files = (
 				360C0FE5281BD16600A2EF2D /* Alert.swift in Sources */,
 				36553246281ADFCF00241DC6 /* PhoneAuthView.swift in Sources */,
+				360C0FEC281C2A6B00A2EF2D /* View+Placeholder.swift in Sources */,
 				360C0FDD281AF0DA00A2EF2D /* PhoneAuthSignInViewModel.swift in Sources */,
 				360C0FDA281AEFD500A2EF2D /* PhoneAuthSignInView.swift in Sources */,
 				360C0FE9281BFA1F00A2EF2D /* PhoneAuthViewModel.swift in Sources */,
@@ -345,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
@@ -376,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhoneAuth/Preview Content\"";
